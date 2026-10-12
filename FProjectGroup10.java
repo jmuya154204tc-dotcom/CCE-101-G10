@@ -16,13 +16,13 @@ public class FProjectGroup10 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Employee Name: ");
-        String Ename = input.nextLine(); // Ename = employee name
+        String Ename = input.nextLine();
 
         System.out.print("Hours Worked: ");
-        int Hworked = input.nextInt(); // Hworked = hours worked
+        int Hworked = input.nextInt();
 
         System.out.print("Hourly Rate: ");
-        int Hrate = input.nextInt(); // Hrate = hourly rate
+        int Hrate = input.nextInt();
 
         int regHours = (Hworked > 40 ? 40 : Hworked);
         int otHours = (Hworked > 40 ? Hworked - 40 : 0);
